@@ -1,1 +1,3 @@
-
+server: 
+    port: ${PORT:8860}
+message: Configuración de customer en el servidor levantado!
