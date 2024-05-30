@@ -8,7 +8,7 @@ spring:
     username: root
     url: jdbc:mysql://localhost:3306/crud?serverTimezone=UTC
   jpa:
-    hibernate: 
+    hibernate:
       ddl-auto: update
       database-platform: org.hibernate.dialect.MySQL5Dialect
   cloud:
