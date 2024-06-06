@@ -10,7 +10,7 @@ spring:
   jpa:
     hibernate: 
       ddl-auto: update
-      database-plataform: org.hibernate.dialect.MySQL5Dialect
+      database-platform: org.hibernate.dialect.MySQL5Dialect
   cloud:
     config:
       uri: http://localhost:8860
