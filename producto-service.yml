@@ -7,10 +7,10 @@ spring:
     password: 12345678
     username: root
     url: jdbc:mysql://localhost:3306/crud?serverTimezone=UTC
-jpa:
-  hibernate:
-    ddl-auto: update
-    datase-platform: org.hibernate.dialect.MySQL5Dialect
-cloud:
-  config:
-    uri: http://localhost:8860
+  jpa:
+    hibernate:
+      ddl-auto: update
+      datase-platform: org.hibernate.dialect.MySQL5Dialect
+  cloud:
+    config:
+      uri: http://localhost:8860
