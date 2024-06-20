@@ -3,7 +3,8 @@ server:
 message: Configuración de Cajero levantado en el servidor!
 eureka:
   client:
-    register-with-eureka: false 
+    register-with-eureka: true
+    serviceurl: http://localhost:8850/eureka
     
 spring:
   datasource:
