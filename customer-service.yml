@@ -3,14 +3,14 @@ server:
 message: Configuración de Customer levantado en el servidor!
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: org.postgresql.Driver
     password: 12345678
     username: root
-    url: jdbc:mysql://localhost:3306/crud?serverTimezone=UTC
+    url: jdbc:postgresql://localhost:5432/crud
   jpa:
     hibernate:
       ddl-auto: update
-      database-platform: org.hibernate.dialect.MySQL5Dialect
+      database-platform: org.hibernate.dialect.PostgreSQLDialect
   cloud:
     config:
       uri: http://localhost:8860
